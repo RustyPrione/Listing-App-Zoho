@@ -5,7 +5,7 @@ Used simple API `https://restcountries.eu/rest/v2/` which returns data in JSON f
 ***
 ## Implemented using
 - ![kotlin](https://img.shields.io/badge/Language-Kotlin-blue)
-- ![retrofit](https://img.shields.io/badge/Module used-retrofit-orange)
+- ![retrofit](https://img.shields.io/badge/Module_used-retrofit-orange)
 
 
 
