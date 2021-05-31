@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="Raja.Ragavan.ListingAppZoho">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_globe1"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/ic_launcher_globe1_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="ExtraText,GoogleAppIndexingWarning">
+        <activity android:name="Raja.Ragavan.ListingAppZoho.MainActivity"></activity>
+        <activity
+                android:name="Raja.Ragavan.ListingAppZoho.Main2Activity"
+                android:parentActivityName="Raja.Ragavan.ListingAppZoho.MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="Raja.Ragavan.ListingAppZoho.MainActivity" />
+        </activity>
+        <activity
+                android:name="Raja.Ragavan.ListingAppZoho.splashscreenActivity"
+                android:launchMode="singleTop"
+                android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
